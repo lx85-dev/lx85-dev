@@ -1,7 +1,7 @@
 <div align="center">
-
-![lx85-dev banner](https://raw.githubusercontent.com/lx85-dev/lx85-dev/main/banner.svg)
-
+  <a href="https://github.com/lx85-dev/lx85-dev/blob/main/banner.svg">
+    <img src="https://raw.githubusercontent.com/lx85-dev/lx85-dev/main/banner.svg?v=2" alt="lx85-dev banner" width="900" />
+  </a>
 </div>
 
 ---
