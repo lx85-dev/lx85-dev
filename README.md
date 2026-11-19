@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" alt="lx85-dev banner" width="100%" />
+  <img src="./banner.svg" alt="lx85-dev banner" width="900" />
 </div>
 
 ---
