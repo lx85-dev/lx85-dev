@@ -1,0 +1,49 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="140" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <rect x="0" y="134" width="900" height="6" rx="3" fill="#161b22" />
+  <rect x="0" y="134" width="220" height="6" rx="3" fill="url(#accentGrad)">
+    <animate attributeName="x" values="-220;900" dur="3.6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- South-Park-Inspired Character -->
+  <g transform="translate(55, 22)">
+    <circle cx="48" cy="48" r="45" fill="#161b22" stroke="url(#accentGrad)" stroke-width="2.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <ellipse cx="48" cy="50" rx="22" ry="20" fill="#fde68a" stroke="#111827" stroke-width="2.5" />
+    <path d="M26 44 C26 24, 70 24, 70 44 Z" fill="#10b981" stroke="#111827" stroke-width="2.5" />
+    <rect x="25" y="40" width="46" height="7" rx="3" fill="#059669" stroke="#111827" stroke-width="2" />
+    <circle cx="48" cy="22" r="5" fill="#34d399" stroke="#111827" stroke-width="2">
+      <animate attributeName="cy" values="22;19;22" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <ellipse cx="41" cy="50" rx="4.5" ry="6" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <ellipse cx="55" cy="50" rx="4.5" ry="6" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <circle cx="42" cy="50" r="1.8" fill="#111827" />
+    <circle cx="54" cy="50" r="1.8" fill="#111827" />
+    <line x1="43" y1="60" x2="53" y2="60" stroke="#111827" stroke-width="2.2" stroke-linecap="round" />
+  </g>
+
+  <text x="175" y="58" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="30" font-weight="700">
+    lx85-dev
+  </text>
+  <text x="175" y="88" fill="#34d399" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14">
+    > hyperfocus mode: ON  |  detail precision: 100%  |  building clean tools & scripts
+  </text>
+  <text x="175" y="112" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+    ADHD-driven engineering • Micro-detail obsession • Workflow automation & dashboards
+  </text>
+</svg>
